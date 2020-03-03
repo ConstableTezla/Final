@@ -1,3 +1,8 @@
+/* overflow- scroll allowes paragraphes to have their own scroll bar. @media screen and (min-width: px number) meida quary's let you make changes only happen after a requirement has been met*/
+/* display: flex;
+Justify contents: center;
+align-items: center;*/
+/* hight-cal: % - absolute aka px number*/
 body {
     background-color: 
 }
