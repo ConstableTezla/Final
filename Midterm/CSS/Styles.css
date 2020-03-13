@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    font-family: 'Arima Madurai', cursive;
+}
+
+#JBL {
+    width: 320px;
+}
+
+#Boombox {
+    max-width: 320px;
+}
+
+#Party {
+    max-width: 320px;
+}
+
+.Orange {
+    color: #ff6200;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+section {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-top: 3px black solid;
+    border-bottom: 3px black solid;
+    border-radius: 10%;
+    box-shadow: 2px 2px;
+}
+
+body {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+    img {display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #Left {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: left;
+    }
+
+    #Right {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: right;
+    }
+}
